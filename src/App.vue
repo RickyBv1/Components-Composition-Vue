@@ -9,6 +9,7 @@ import ClaseComputed from './compositions/ClaseComputed/ClaseComputed.vue'
 import ClaseProps from './compositions/ClaseProps/ClaseProps.vue'
 import ClaseProvideInject from './compositions/ClaseProvideInject/ClaseProvideInject.vue'
 import ClaseRefs from './compositions/ClaseRefs/ClaseRefs.vue'
+import ClaseScriptSetup from './compositions/ClaseScriptSetup/ClaseScriptSetup.vue'
 
 export default {
   name: 'App',
@@ -23,6 +24,7 @@ export default {
     ClaseProps,
     ClaseProvideInject,
     ClaseRefs,
+    ClaseScriptSetup,
   },
 }
 </script>
@@ -50,6 +52,8 @@ export default {
     <ClaseProvideInject />
 
     <ClaseRefs />
+
+    <ClaseScriptSetup />
   </div>
 </template>
 
