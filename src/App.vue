@@ -7,6 +7,7 @@ import ClaseVariablesReactivas from './compositions/ClaseVariablesReactivas/Clas
 import ClaseWatch from './compositions/ClaseWatch/ClaseWatch.vue'
 import ClaseComputed from './compositions/ClaseComputed/ClaseComputed.vue'
 import ClaseProps from './compositions/ClaseProps/ClaseProps.vue'
+import ClaseProvideInject from './compositions/ClaseProvideInject/ClaseProvideInject.vue'
 
 export default {
   name: 'App',
@@ -19,6 +20,7 @@ export default {
     ClaseWatch,
     ClaseComputed,
     ClaseProps,
+    ClaseProvideInject,
   },
 }
 </script>
@@ -42,6 +44,8 @@ export default {
     <ClaseComputed class="card" />
 
     <ClaseProps class="card" />
+
+    <ClaseProvideInject />
   </div>
 </template>
 
