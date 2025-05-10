@@ -4,6 +4,7 @@ import ClaseTeleports from './components/ClaseTeleports/ClaseTeleports.vue'
 import ClaseCicloDeVida from './components/ClaseCicloDeVida/ClaseCicloDeVida.vue'
 import ClaseMixins from './components/ClaseMixins/ClaseMixins.vue'
 import ClaseVariablesReactivas from './compositions/ClaseVariablesReactivas/ClaseVariablesReactivas.vue'
+import ClaseWatch from './compositions/ClaseWatch/ClaseWatch.vue'
 
 export default {
   name: 'App',
@@ -13,6 +14,7 @@ export default {
     ClaseCicloDeVida,
     ClaseMixins,
     ClaseVariablesReactivas,
+    ClaseWatch,
   },
 }
 </script>
@@ -30,6 +32,8 @@ export default {
 
   <div id="composition">
     <ClaseVariablesReactivas class="card" />
+
+    <ClaseWatch class="card" />
   </div>
 </template>
 
