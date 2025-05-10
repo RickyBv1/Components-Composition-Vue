@@ -4,10 +4,18 @@ import ClaseTeleports from './components/ClaseTeleports/ClaseTeleports.vue'
 import ClaseCicloDeVida from './components/ClaseCicloDeVida/ClaseCicloDeVida.vue'
 import ClaseMixins from './components/ClaseMixins/ClaseMixins.vue'
 import CompositionAPI from './compositions/CompositionAPI/CompositionAPI.vue'
+import ClaseGestionCicloVida from './compositions/ClaseGestionCicloVida/ClaseGestionCicloVida.vue'
 
 export default {
   name: 'App',
-  components: { ClaseTransitions, ClaseTeleports, ClaseCicloDeVida, ClaseMixins, CompositionAPI },
+  components: {
+    ClaseTransitions,
+    ClaseTeleports,
+    ClaseCicloDeVida,
+    ClaseMixins,
+    CompositionAPI,
+    ClaseGestionCicloVida,
+  },
 }
 </script>
 
@@ -24,6 +32,8 @@ export default {
 
   <div id="composition">
     <CompositionAPI class="card" />
+
+    <ClaseGestionCicloVida class="card" />
   </div>
 </template>
 
