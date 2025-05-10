@@ -2,10 +2,11 @@
 import ClaseTransitions from './components/ClaseTransitions/ClaseTransitions.vue'
 import ClaseTeleports from './components/ClaseTeleports/ClaseTeleports.vue'
 import ClaseCicloDeVida from './components/ClaseCicloDeVida/ClaseCicloDeVida.vue'
+import ClaseMixins from './components/ClaseMixins/ClaseMixins.vue'
 
 export default {
   name: 'App',
-  components: { ClaseTransitions, ClaseTeleports, ClaseCicloDeVida },
+  components: { ClaseTransitions, ClaseTeleports, ClaseCicloDeVida, ClaseMixins },
 }
 </script>
 
@@ -15,6 +16,8 @@ export default {
   <ClaseTeleports class="card" />
 
   <ClaseCicloDeVida class="card" />
+
+  <ClaseMixins />
 </template>
 
 <style>

@@ -1,8 +1,10 @@
 <template>
-  <button @click="show = !show">Transition</button>
-  <transition name="fade">
-    <Menu v-show="show" />
-  </transition>
+  <div>
+    <button @click="show = !show">Transition</button>
+    <transition name="fade">
+      <Menu v-show="show" />
+    </transition>
+  </div>
 </template>
 
 <script>
