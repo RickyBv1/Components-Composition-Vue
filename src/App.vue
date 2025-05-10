@@ -8,6 +8,7 @@ import ClaseWatch from './compositions/ClaseWatch/ClaseWatch.vue'
 import ClaseComputed from './compositions/ClaseComputed/ClaseComputed.vue'
 import ClaseProps from './compositions/ClaseProps/ClaseProps.vue'
 import ClaseProvideInject from './compositions/ClaseProvideInject/ClaseProvideInject.vue'
+import ClaseRefs from './compositions/ClaseRefs/ClaseRefs.vue'
 
 export default {
   name: 'App',
@@ -21,6 +22,7 @@ export default {
     ClaseComputed,
     ClaseProps,
     ClaseProvideInject,
+    ClaseRefs,
   },
 }
 </script>
@@ -46,6 +48,8 @@ export default {
     <ClaseProps class="card" />
 
     <ClaseProvideInject />
+
+    <ClaseRefs />
   </div>
 </template>
 
